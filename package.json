@@ -1,7 +1,7 @@
 {
-  "name": "loopLab",
+  "name": "mizuxe",
   "version": "1.0.0",
-  "description": "Social UI Theme",
+  "description": "Bootstrap 4 Book Theme",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
