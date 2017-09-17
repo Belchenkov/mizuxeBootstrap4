@@ -45,10 +45,39 @@ section#showcase {
 
 }
 
-
 // ABOUT
 #about {
   .card-header:hover {
     cursor: pointer;
   }
+}
+
+// AUTHORS
+section#authors {
+  img {
+    margin-top: -50px;
+  }
+
+  .fa {
+    font-size: 25px;
+  }
+
+  .card {
+    transition: all .5s ease-out;
+  }
+
+  .card:hover {
+    background-color: $primary;
+    color: #fff;
+    
+    .fa {
+      color: #fff;
+    }
+  }
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #ddd;
 }

@@ -27,3 +27,23 @@ section#showcase {
 
 #about .card-header:hover {
   cursor: pointer; }
+
+section#authors img {
+  margin-top: -50px; }
+
+section#authors .fa {
+  font-size: 25px; }
+
+section#authors .card {
+  transition: all .5s ease-out; }
+
+section#authors .card:hover {
+  background-color: #329216;
+  color: #fff; }
+  section#authors .card:hover .fa {
+    color: #fff; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #ddd; }
