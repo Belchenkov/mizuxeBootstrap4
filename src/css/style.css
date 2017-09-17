@@ -5,8 +5,7 @@ body {
 
 .navbar {
   box-shadow: 2px 2px 5px #329216;
-  opacity: 0.8;
-  background-color: #f4f4f4; }
+  opacity: 0.8; }
   .navbar .nav-item {
     font-size: 1.3rem;
     padding-right: 20px;
@@ -47,3 +46,14 @@ section#authors .card:hover {
   width: 50%;
   margin: auto;
   border-bottom: 1px solid #ddd; }
+
+#main-footer {
+  height: 100px;
+  display: flex;
+  align-items: center; }
+  #main-footer a {
+    color: #fff; }
+
+@media (max-width: 576px) {
+  nav .container {
+    width: 100%; } }
