@@ -54,6 +54,9 @@ section#authors .card:hover {
   #main-footer a {
     color: #fff; }
 
+input {
+  font-family: "Nunito", sans-serif; }
+
 @media (max-width: 576px) {
   nav .container {
     width: 100%; } }
